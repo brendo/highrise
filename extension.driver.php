@@ -196,6 +196,11 @@
 					$phone_number->addChild('location', 'Other');
 				}
 
+				// Support for company
+				else if ($name == 'company') {
+					$request->addChild('company-name', $value);
+				}
+
 				// Support tags
 				else if ($name == 'tags') {
 					$tag_requests = array();
