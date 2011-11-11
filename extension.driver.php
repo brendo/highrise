@@ -269,7 +269,7 @@
 		}
 
 		public static function setCurlOptions(&$ch, $data) {
-			curl_setopt_array($tag, array(
+			curl_setopt_array($ch, array(
 				CURLOPT_HTTPAUTH => CURLAUTH_BASIC,
 				CURLOPT_USERPWD => Extension_Highrise::getAPIToken() . ":X",
 				CURLOPT_POST => true,
