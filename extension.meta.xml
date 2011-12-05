@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="highrise">
+	<name>Highrise</name>
+	<description>A simple Event Filter to add Contacts to your Highrise account via Symphony events.</description>
+	<repo type="github">https://github.com/brendo/highrise</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/79206/</url>
+	<types>
+		<type>Events</type>
+		<type>Third Party Integration</type>
+	</types>
+	<authors>
+		<author>
+			<name github="brendo" symphony="brendo">Brendan Abbott</name>
+			<website>http://www.bloodbone.ws</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.2" date="2011-12-05" min="2.0.6">
+			- Add support for `company` field
+			- Bug fixes
+		</release>
+		<release version="0.1" date="2011-10-20" min="2.0.6" />
+	</releases>
+</extension>

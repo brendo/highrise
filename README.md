@@ -2,16 +2,16 @@
 
 The Highrise extension allows you to add Contacts to your Highrise account via Symphony events.
 
-- Version: 0.1
-- Date: 20th October 2011
+- Version: 0.2
+- Date: 5th December 2011
 - Requirements: Symphony 2.0.6 or newer, <http://github.com/symphonycms/symphony-2/>
 - Author: Brendan Abbott [brendan@bloodbone.ws]
 - GitHub Repository: <http://github.com/brendo/highrise>
 
 ## Installation
 
-1. Upload the 'highrise' folder in this archive to your Symphony 'extensions' folder.
-2. Enable it by selecting the "Highrise" extension from System > Extensions, choose Enable from the With Selected menu, then click Apply.
+1. Upload the `/highrise` folder to your Symphony `/extensions` folder.
+2. Enable it by selecting the "Highrise" extension from System > Extensions, choose Enable/Install from the With Selected menu, then click Apply.
 3. You can now add the "Highrise" filter to your Events.
 
 ## Usage
@@ -60,6 +60,11 @@ You can add multiple tags to a record by separating them with a comma:
 There is no support for custom fields yet (aka, `subject_datas`). If you need it, fork it, add it and submit a pull request :)
 
 ## Changelog
+
+*0.2* (5th December 2011)
+
+- Add support for `company` field
+- Bug fixes
 
 *0.1* (20th October 2011)
 

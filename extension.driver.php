@@ -6,8 +6,8 @@
 		public function about() {
 			return array(
 				'name'			=> 'Highrise',
-				'version'		=> '0.1',
-				'release-date'	=> '2011-10-20',
+				'version'		=> '0.2',
+				'release-date'	=> '2011-12-05',
 				'author'		=> array(
 					array(
 						'name' => 'Brendan Abbott',
@@ -247,7 +247,7 @@
 				}
 			}
 			else if($info['http_code'] == 507) {
-				$context['messages'][] = array('highrise', false, 'Your Highrise account does\'t allow for any more People to be created');
+				$context['messages'][] = array('highrise', false, 'Your Highrise account doesn\'t allow for any more People to be created.');
 			}
 			else {
 				$context['messages'][] = array('highrise', false, 'Something went wrong, and we\'re really not sure where. Sorry!');
