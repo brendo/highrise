@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<extension id="highrise">
+<extension id="highrise" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
 	<name>Highrise</name>
 	<description>A simple Event Filter to add Contacts to your Highrise account via Symphony events.</description>
 	<repo type="github">https://github.com/brendo/highrise</repo>
@@ -15,7 +15,7 @@
 		</author>
 	</authors>
 	<releases>
-		<release version="0.2" date="2011-12-05" min="2.0.6">
+		<release version="0.2" date="2011-12-05" min="2.0.6" max="2.3.x">
 			- Add support for `company` field
 			- Bug fixes
 		</release>
